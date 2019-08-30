@@ -2,6 +2,7 @@ package com.worldpay.StringTask;
 
 
 public class Ques9 {
+	//remove digits from alphanumeric string
 	public static void removeDigits(String a){
 		String withOutDigits=a.replaceAll("[0-9]", "");
 		System.out.println("String without digits is : "+withOutDigits);
